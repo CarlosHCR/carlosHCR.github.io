@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Section */
+.main-section {
+  background-image: url("../assets/capa.png"); /* Placeholder for real image */
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+}
+
+.main-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.main-section p {
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+/* Features Section */
+.features {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.features-container {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features h2 {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.features p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.features .fw-bold {
+  font-weight: bold;
+  color: #000;
+}
